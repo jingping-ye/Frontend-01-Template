@@ -28,7 +28,7 @@ UTF8_Encoding('作业');  // Uint8Array(6) [228, 189, 156, 228, 184, 154]
 
 ```js
 function checkStr(str){
-    let reg = \(.*?)\
+    let reg = /(.*?)/
     return reg.test(str);
 }
 ```
